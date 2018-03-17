@@ -1,0 +1,10 @@
+#header {
+    background-color: yellow;
+}
+
+li {
+    display: inline;
+    float: right;
+    padding: 10px;
+    background-color: yellow;
+}

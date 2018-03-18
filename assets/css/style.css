@@ -103,10 +103,12 @@ p {
     flex-shrink: 0;
     width: 100%;
     background: #696969;
-    color: white;
     margin: 0 auto;
     text-align: center;
     height: 50px;
     padding-top: 15px;
 }
 
+#sticky p {
+    color: white;
+}

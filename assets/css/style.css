@@ -40,12 +40,17 @@ header::after {
 
 nav {
     float: right;
+    height: 100%;
 }
 
 nav li {
     display: inline-block;
     margin-left: 40px;
-    padding-top: 27px;
+    padding: 25px;
+}
+
+nav li:hover {
+    background-color: #4aaaa5;
 }
 
 
@@ -54,6 +59,9 @@ nav a {
     color: #a9a9a9;
 }
 
+nav a:hover {
+    color: white;
+}
 
 /* next is the styling of the main content */
 
@@ -128,6 +136,40 @@ form textarea {
     border: none;
 }
 
+/* portfolio page styling */
+
+.row {
+    margin: 8px auto;
+    display: block;
+    position: relative;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column {
+    padding: 8px;
+    width: 33.333%;
+    float: left;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    width: 225px;
+    background-color: #4aaaa5;
+    padding: 15px 0;
+    position: relative;
+    margin: 0 auto;
+    bottom: 65px;
+    z-index: 1;
+    color: white;
+}
 /* getting footer to work */
 
 #sticky {
